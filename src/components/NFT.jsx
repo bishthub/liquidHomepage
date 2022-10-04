@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 export default function NFT(props) {
-  const [counterOn, setCounterOn] = useState(false);
+  const [counterOn, setCounterOn] = useState(true);
   return (
     <>
       <ScrollTrigger
         onEnter={() => setCounterOn(true)}
-        onExit={() => setCounterOn(false)}
+        // onExit={() => setCounterOn(false)}
       >
         <div className=" margin-full">
           <div className="bg-white opacity-less">
