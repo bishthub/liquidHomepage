@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useEffect } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import Aos from "aos";
@@ -22,13 +22,13 @@ function About() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img className="" src="/images/1_10.jpg" width={300} />
+              <img className="" src="/images/1_10.jpg" width={300} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="" src="/images/1_8.jpg" width={300} />
+              <img className="" src="/images/1_8.jpg" width={300} alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="" src="/images/1_9.jpg" width={300} />
+              <img className="" src="/images/1_9.jpg" width={300} alt="" />
             </SwiperSlide>
           </Swiper>
 
@@ -106,6 +106,7 @@ function About() {
           <iframe
             className="mt-16 w-full"
             height={720}
+            title="ytVideo"
             src="https://www.youtube.com/embed/tgbNymZ7vqY"
           ></iframe>
         </div>
