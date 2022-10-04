@@ -1,5 +1,14 @@
+@font-face {
+  font-family: 'Janna LT Bold';
+  src: local('Janna LT Bold'),
+    url('/public/fonts/Janna\ LT\ Bold.ttf') format('truetype');
+}
 .App {
+  font-family: 'Janna LT Bold';
   text-align: center;
+  background-color: #040d1a;
+  color: #ffff;
+  padding: 1% 4%;
 }
 
 .App-logo {
@@ -34,5 +43,175 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+.imgnew {
+  max-width: 135%;
+  margin-top: -51%;
+  margin-left: -122%;
+}
+.imgmax {
+  max-width: 100%;
+}
+@media only screen and (max-width: 1050px) {
+  .imgnew {
+    max-width: 70% !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 1322px) {
+  .imgnew {
+    max-width: 182%;
+    margin-top: -51%;
+    margin-left: -75%;
+  }
+}
+
+.max-width100 {
+  max-width: 100% !important;
+}
+.nav-link {
+  color: white !important;
+}
+.text-large {
+  font-size: xx-large;
+  font-weight: 600;
+}
+.mt-10 {
+  margin-top: 5rem !important;
+}
+.opacity-less {
+  --bs-bg-opacity: 0.2 !important;
+}
+.huge-text {
+  font-size: 8.5rem;
+  line-height: 1;
+  text-align: left;
+}
+.align-right {
+  text-align: end;
+}
+.text-left {
+  text-align: start;
+}
+.inside-list {
+  list-style-position: inside;
+}
+ul > li {
+  margin-top: 1%;
+}
+.none {
+  list-style-type: none;
+}
+.btn-style {
+  border-radius: 20px !important;
+  --bs-btn-padding-x: 3.25rem !important;
+}
+.text-6xl {
+  font-size: 4.5rem;
+}
+.icon {
+  width: 2.5em !important;
+  background-color: #ffff;
+  height: 2.5em !important;
+  color: gray;
+}
+.icon:hover {
+  color: burlywood;
+  cursor: pointer;
+}
+.mr-3 {
+  margin-right: 5%;
+}
+.icon-first {
+  box-shadow: white 0px 0px 25px, white 0px 0px 5px;
+  padding: 5px;
+  border-radius: 50px;
+}
+.icon-second {
+  box-shadow: white 0px 0px 25px, white 0px 0px 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bgnew {
+  position: relative;
+  background-image: url(../public/Images/back.png);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgnew::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.margin-full {
+  margin: 0 -5%;
+}
+.navbar-toggler {
+  background-color: #e9ecef !important;
+}
+@media only screen and (max-width: 600px) {
+  .huge-text {
+    font-size: 3rem !important;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .huge-text {
+    font-size: 3.5rem !important;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .huge-text {
+    font-size: 5rem;
+  }
+}
+.navbar-nav {
+  column-gap: 25px;
+}
+.imagesSet {
+  justify-content: center;
+  display: flex;
+  column-gap: 78px;
+  align-items: center;
+  margin-top: -8% !important;
+}
+.imagesBear {
+  max-width: 200px;
+  position: absolute;
+  bottom: -38px;
+}
+.fixedDiv {
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .imagesBear {
+    max-width: 200px;
+    position: initial;
+    bottom: 0px;
+  }
+  .fixedDiv {
+    position: initial;
+  }
+  .imagesSet {
+    justify-content: center;
+    display: flex;
+    column-gap: 0;
+    align-items: center;
+    margin-top: 0 !important;
+  }
+  .binance {
+    width: 150px;
+  }
+  .bsc {
+    width: 150px;
+  }
+  .bybit {
+    width: 100px;
   }
 }
