@@ -23,6 +23,7 @@ export default function NFT(props) {
                       {counterOn && (
                         <CountUp
                           className="text-large"
+                          start={0}
                           end={props.cost}
                           duration={2.75}
                           enableScrollSpy
@@ -33,6 +34,7 @@ export default function NFT(props) {
                       {counterOn && (
                         <CountUp
                           className="text-large"
+                          start={0}
                           end={props.supply}
                           duration={2.75}
                           enableScrollSpy
@@ -49,6 +51,7 @@ export default function NFT(props) {
                       {counterOn && (
                         <CountUp
                           className="text-large"
+                          start={0}
                           end={props.equity}
                           duration={2.75}
                           enableScrollSpy
@@ -59,6 +62,7 @@ export default function NFT(props) {
                       {counterOn && (
                         <CountUp
                           className="text-large"
+                          start={0}
                           end={props.perks}
                           duration={1.75}
                           enableScrollSpy
@@ -73,7 +77,7 @@ export default function NFT(props) {
                 </div>
                 <div className="col-lg-4 fixedDiv">
                   <img
-                    src="/images/1_10.jpg"
+                    src={props.image}
                     alt="bear"
                     className="imagesBear"
                     style={{

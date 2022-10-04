@@ -22,13 +22,13 @@ function About() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img className="" src="/images/1_8.jpg" width={300} />
+              <img className="" src="/images/1_10.jpg" width={300} />
             </SwiperSlide>
             <SwiperSlide>
               <img className="" src="/images/1_8.jpg" width={300} />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="" src="/images/1_8.jpg" width={300} />
+              <img className="" src="/images/1_9.jpg" width={300} />
             </SwiperSlide>
           </Swiper>
 

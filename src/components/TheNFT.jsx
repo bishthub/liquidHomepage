@@ -12,6 +12,7 @@ export default function TheNFT() {
         equity="500"
         supply="600"
         perks="2"
+        image="/images/1_10.jpg"
       />
       <div className="mt-10"></div>
       <NFT
@@ -21,6 +22,7 @@ export default function TheNFT() {
         equity="1300"
         supply="350"
         perks="3"
+        image="/images/1_9.jpg"
       />
       <div className="mt-10"></div>
       <NFT
@@ -30,6 +32,7 @@ export default function TheNFT() {
         equity="9900"
         supply="20"
         perks="5"
+        image="/images/1_8.jpg"
       />
 
       {/* <div className="col-lg-3 ">
