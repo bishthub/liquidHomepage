@@ -3,7 +3,7 @@ import NFT from "./NFT";
 
 export default function TheNFT() {
   return (
-    <div className="mt-10 bgnew">
+    <div className="mt-10 bgnew" id="nfts">
       <h1 className="text-left">THE NFTs</h1>
       <NFT
         title="Bearish NFT"

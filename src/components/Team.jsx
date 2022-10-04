@@ -6,7 +6,7 @@ function Team() {
     Aos.init({ duration: 2000 });
   });
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="team">
       <div data-aos="fade-right" className="row text-left">
         <div className="col-lg-6">
           <h1>TEAM</h1>

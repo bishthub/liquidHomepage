@@ -6,7 +6,7 @@ function Perks() {
     Aos.init({ duration: 2000 });
   });
   return (
-    <div className="mt-10">
+    <div className="mt-10" id="perks">
       <div className="row">
         <div data-aos="fade-right" className="col-lg-7">
           <img src="/images/asset_6.png" className="imgmax" alt="bearbull" />

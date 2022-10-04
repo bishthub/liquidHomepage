@@ -11,7 +11,7 @@ function About() {
     Aos.init({ duration: 2000 });
   });
   return (
-    <div className="">
+    <div id="aboutus">
       <h1 className="align-right">ABOUT US</h1>
       <div className="row">
         <div className="col-lg-6 col-sm-4">

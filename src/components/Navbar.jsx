@@ -17,8 +17,8 @@ function Navbarnew() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="#features">About us</Nav.Link>
-          <Nav.Link href="#pricing">NFTs </Nav.Link>
+          <Nav.Link href="#aboutus">About us</Nav.Link>
+          <Nav.Link href="#nfts">NFTs </Nav.Link>
           <Nav.Link href="#perks">Perks </Nav.Link>
           <Nav.Link href="#team">Team </Nav.Link>
         </Nav>
