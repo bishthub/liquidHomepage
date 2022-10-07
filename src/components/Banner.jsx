@@ -7,6 +7,9 @@ function Banner() {
         <div className="col-lg-8 z-index-0">
           <h1 className="huge-text mt-5">
             <Typewriter
+              options={{
+                delay: 100,
+              }}
               onInit={(typewriter) => {
                 typewriter
 
