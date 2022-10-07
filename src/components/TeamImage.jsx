@@ -12,7 +12,7 @@ function TeamImage() {
         <div className="row bg-white opacity-less">
           <div className="col-lg-4">
             <img
-              className="imagesBear"
+              // className="imagesBear"
               data-aos="zoom-in-up"
               src="/images/asset_2.png"
               alt="bear"
@@ -21,7 +21,7 @@ function TeamImage() {
           </div>
           <div className="col-lg-4">
             <img
-              className="imagesBear"
+              // className="imagesBear"
               data-aos="zoom-in-up"
               src="/images/asset_3.png"
               alt="lion"
@@ -30,7 +30,7 @@ function TeamImage() {
           </div>
           <div className="col-lg-4">
             <img
-              className="imagesBear"
+              // className="imagesBear"
               data-aos="zoom-in-up"
               src="/images/asset_4.png"
               alt="deer"
