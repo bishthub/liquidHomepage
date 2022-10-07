@@ -6,7 +6,7 @@ export default function TheNFT() {
     <div className="mt-10 bgnew" id="nfts">
       <h1 className="text-left">THE NFTs</h1>
       <NFT
-        title="Bearish NFT"
+        title="BEARISH NFT"
         color="Red"
         cost="550"
         equity="500"
@@ -16,8 +16,8 @@ export default function TheNFT() {
       />
       <div className="mt-10"></div>
       <NFT
-        title="Bullish NFT"
-        color="green"
+        title="BULLISH NFT"
+        color="#6eff6e"
         cost="1350"
         equity="1300"
         supply="350"
@@ -26,7 +26,7 @@ export default function TheNFT() {
       />
       <div className="mt-10"></div>
       <NFT
-        title="Market maker"
+        title="MARKET MAKER NFT"
         color="yellow"
         cost="10000"
         equity="9900"

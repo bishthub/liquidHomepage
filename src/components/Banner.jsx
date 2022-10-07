@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div>
       <div className="max-width100 row">
-        <div className="col-lg-8">
+        <div className="col-lg-8 z-index-0">
           <h1 className="huge-text mt-5">
             <Typewriter
               onInit={(typewriter) => {
@@ -27,15 +27,15 @@ function Banner() {
         <div className="imagesSet">
           <img
             src="/images/Binance-Smart-Chain.png"
-            width={200}
-            height={200}
+            width={180}
+            height={150}
             className="binance"
             alt="binance"
           />
           <img
             src="/images/Bybit-logo.png"
-            width={200}
-            height={70}
+            width={150}
+            height={50}
             className="bybit"
             alt="bybit"
           />

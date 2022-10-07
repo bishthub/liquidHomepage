@@ -12,26 +12,29 @@ function TeamImage() {
         <div className="row bg-white opacity-less">
           <div className="col-lg-4">
             <img
+              className="imagesBear"
               data-aos="zoom-in-up"
               src="/images/asset_2.png"
               alt="bear"
-              width={300}
+              width={200}
             />
           </div>
           <div className="col-lg-4">
             <img
+              className="imagesBear"
               data-aos="zoom-in-up"
               src="/images/asset_3.png"
               alt="lion"
-              width={300}
+              width={200}
             />
           </div>
           <div className="col-lg-4">
             <img
+              className="imagesBear"
               data-aos="zoom-in-up"
               src="/images/asset_4.png"
               alt="deer"
-              width={300}
+              width={200}
             />
           </div>
         </div>
@@ -41,7 +44,7 @@ function TeamImage() {
       <div className="margin-full">
         <div className="row bg-white opacity-less pt-2 pb-5">
           <div className="col-lg-4 ">
-            <p> Brendan-Lead Training</p>
+            <p> Brendan-Lead Trading</p>
           </div>
           <div className="col-lg-4">
             <p> Sam - Market Research</p>

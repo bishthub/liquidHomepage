@@ -25,7 +25,7 @@ export default function NFT(props) {
                           className="text-large"
                           start={0}
                           end={props.cost}
-                          duration={2.75}
+                          duration={4}
                           enableScrollSpy
                         />
                       )}
@@ -36,7 +36,7 @@ export default function NFT(props) {
                           className="text-large"
                           start={0}
                           end={props.supply}
-                          duration={2.75}
+                          duration={4}
                           enableScrollSpy
                         />
                       )}
@@ -53,7 +53,7 @@ export default function NFT(props) {
                           className="text-large"
                           start={0}
                           end={props.equity}
-                          duration={2.75}
+                          duration={4}
                           enableScrollSpy
                         />
                       )}
@@ -64,7 +64,7 @@ export default function NFT(props) {
                           className="text-large"
                           start={0}
                           end={props.perks}
-                          duration={1.75}
+                          duration={4}
                           enableScrollSpy
                         />
                       )}
