@@ -215,6 +215,18 @@ ul > li {
     width: 100px;
   }
 }
-.z-index-0{
+.z-index-0 {
   z-index: 0;
+}
+@media only screen and (max-width: 1000px) {
+  .display-none {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .display-only-none {
+    display: none;
+    visibility: hidden;
+  }
 }

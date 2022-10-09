@@ -18,6 +18,7 @@ function TeamImage() {
               alt="bear"
               width={200}
             />
+            <p className="display-only-none"> Sam - Market Research</p>
           </div>
           <div className="col-lg-4">
             <img
@@ -27,6 +28,7 @@ function TeamImage() {
               alt="lion"
               width={200}
             />
+            <p className="display-only-none"> Sam - Market Research</p>
           </div>
           <div className="col-lg-4">
             <img
@@ -36,12 +38,13 @@ function TeamImage() {
               alt="deer"
               width={200}
             />
+            <p className="display-only-none"> Jorge-TA Guru</p>
           </div>
         </div>
       </div>
 
       <div className="row p-3 "></div>
-      <div className="margin-full">
+      <div className="margin-full  display-none">
         <div className="row bg-white opacity-less pt-2 pb-5">
           <div className="col-lg-4 ">
             <p> Brendan-Lead Trading</p>

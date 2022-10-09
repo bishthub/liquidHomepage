@@ -19,7 +19,7 @@ export default function NFT(props) {
                     {props.title}
                   </h2>
                   <div className="row">
-                    <div class="col-lg-6 col-sm-12">
+                    <div className="col-lg-6 col-sm-12">
                       {counterOn && (
                         <CountUp
                           className="text-large"
@@ -29,8 +29,9 @@ export default function NFT(props) {
                           enableScrollSpy
                         />
                       )}
+                      <p className="display-only-none">USDT mining cost</p>
                     </div>
-                    <div class="col-lg-6 col-sm-12">
+                    <div className="col-lg-6 col-sm-12">
                       {counterOn && (
                         <CountUp
                           className="text-large"
@@ -41,13 +42,14 @@ export default function NFT(props) {
                         />
                       )}
                     </div>
+                    <p className="display-only-none">Total supply</p>
+                  </div>
+                  <div className="row display-none">
+                    <div className="col-lg-6 col-sm-12">USDT mining cost</div>
+                    <div className="col-lg-6 col-sm-12">Total supply</div>
                   </div>
                   <div className="row ">
-                    <div class="col-lg-6 col-sm-12">USDT mining cost</div>
-                    <div class="col-lg-6 col-sm-12">Total supply</div>
-                  </div>
-                  <div className="row ">
-                    <div class="col-lg-6 col-sm-6">
+                    <div className="col-lg-6 col-sm-6">
                       {counterOn && (
                         <CountUp
                           className="text-large"
@@ -57,8 +59,9 @@ export default function NFT(props) {
                           enableScrollSpy
                         />
                       )}
+                      <p className="display-only-none">USDT equity</p>
                     </div>
-                    <div class="col-lg-6 col-sm-6">
+                    <div className="col-lg-6 col-sm-6">
                       {counterOn && (
                         <CountUp
                           className="text-large"
@@ -69,10 +72,11 @@ export default function NFT(props) {
                         />
                       )}
                     </div>
+                    <p className="display-only-none">additional perks</p>
                   </div>
-                  <div className="row mb-4">
-                    <div class="col-lg-6 col-sm-6">USDT equity</div>
-                    <div class="col-lg-6 col-sm-6">additional perks</div>
+                  <div className="row mb-4 display-none">
+                    <div className="col-lg-6 col-sm-6">USDT equity</div>
+                    <div className="col-lg-6 col-sm-6">additional perks</div>
                   </div>
                 </div>
                 <div className="col-lg-4 fixedDiv">
