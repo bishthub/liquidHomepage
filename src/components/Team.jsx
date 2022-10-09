@@ -33,6 +33,9 @@ function Team() {
             4 Technical Analysts
           </p>
         </div>
+        <div className="col-lg-6">
+          <img src="/images/Asset7.png" className="imgnewest" alt="beer" />
+        </div>
       </div>
     </div>
   );

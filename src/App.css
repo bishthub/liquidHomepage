@@ -207,12 +207,16 @@ ul > li {
   }
   .binance {
     width: 150px;
+    height: 130px;
+    margin-left: 5px;
   }
   .bsc {
     width: 150px;
+    height: 145px;
   }
   .bybit {
     width: 100px;
+    height: 37px;
   }
 }
 .z-index-0 {
@@ -229,4 +233,35 @@ ul > li {
     display: none;
     visibility: hidden;
   }
+}
+.imgnewest {
+  max-width: 162%;
+  margin-top: -36%;
+  margin-left: -45%;
+}
+@media only screen and (max-width: 1050px) {
+  .imgnewest {
+    max-width: 122% !important;
+    margin-top: -3% !important;
+    margin-left: -12% !important;
+  }
+  .height-auto {
+    height: auto !important;
+  }
+  .fix-div {
+    margin-top: 0 !important;
+  }
+}
+@media only screen and (max-width: 1322px) {
+  .imgnewest {
+    max-width: 178%;
+    margin-top: -19%;
+    margin-left: -65%;
+  }
+}
+.height-auto {
+  height: 135px;
+}
+.fix-div {
+  margin-top: -18px;
 }

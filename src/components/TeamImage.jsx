@@ -9,35 +9,44 @@ function TeamImage() {
   return (
     <div className="mt-5">
       <div className="margin-full">
-        <div className="row bg-white opacity-less">
+        <div className="row bg-white opacity-less height-auto">
           <div className="col-lg-4">
-            <img
-              // className="imagesBear"
-              data-aos="zoom-in-up"
-              src="/images/asset_2.png"
-              alt="bear"
-              width={200}
-            />
+            <div className="fix-div">
+              <img
+                // className="imagesBear"
+                data-aos="zoom-in-up"
+                src="/images/asset_2.png"
+                alt="bear"
+                width={200}
+              />
+            </div>
+
             <p className="display-only-none"> Sam - Market Research</p>
           </div>
           <div className="col-lg-4">
-            <img
-              // className="imagesBear"
-              data-aos="zoom-in-up"
-              src="/images/asset_3.png"
-              alt="lion"
-              width={200}
-            />
+            <div className="fix-div">
+              <img
+                // className="imagesBear"
+                data-aos="zoom-in-up"
+                src="/images/asset_3.png"
+                alt="lion"
+                width={200}
+              />
+            </div>
+
             <p className="display-only-none"> Sam - Market Research</p>
           </div>
           <div className="col-lg-4">
-            <img
-              // className="imagesBear"
-              data-aos="zoom-in-up"
-              src="/images/asset_4.png"
-              alt="deer"
-              width={200}
-            />
+            <div className="fix-div">
+              <img
+                // className="imagesBear"
+                data-aos="zoom-in-up"
+                src="/images/asset_4.png"
+                alt="deer"
+                width={170}
+              />
+            </div>
+
             <p className="display-only-none"> Jorge-TA Guru</p>
           </div>
         </div>
