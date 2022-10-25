@@ -107,7 +107,7 @@ function About() {
             className="mt-16 w-full"
             height={720}
             title="ytVideo"
-            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            src="https://www.youtube.com/embed/tLhRmwKVV4U"
           ></iframe>
         </div>
       </div>
