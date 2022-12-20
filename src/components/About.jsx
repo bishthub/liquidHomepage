@@ -111,6 +111,17 @@ function About() {
           ></iframe>
         </div>
       </div>
+      <div className="container">
+        <div className="row mt-10">
+        <h1 className="align-left">PARTNERS</h1>
+        <div>
+        <a target='_blank' href="https://raritysniper.com/nft-drops-calendar"><img width={300} style={{
+                marginTop: "5%",
+              }} src="/images/logo2-black.png"></img></a>
+        </div>
+       
+        </div>
+      </div>
     </div>
   );
 }
